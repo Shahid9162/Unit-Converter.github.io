@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="col-md-3 well">Kilometers - Miles</a>
+        <a href="#" class="col-md-3 well">Kilograms - Pounds</a>
+        <a href="cms-in.html" class="col-md-3 well">Centimeters - Inches</a>
+        <a href="#" class="col-md-3 well">Dollar - Rupees</a>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h3>Kg(s) - Pnd(s)</h3>
+        <form class="form">
+          <input type="number" id="ip1" placeholder="Kilogram(s)" />
+          <input type="number" id="ip2" placeholder="Pound(s)" />
+          <input
+            type="button"
+            value="Convert"
+            class="btn btn-success"
+            onclick="pdsres()"
+          />
+        </form>
+      </div>
+    </main>
+    <script src="kgs-pds.js"></script>
+  </body>
+</html>
